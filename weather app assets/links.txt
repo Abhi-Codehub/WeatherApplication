@@ -1,0 +1,20 @@
+figma
+https://www.figma.com/file/3L8GDidIhSOKT19XC7WXHY/Weather-App-By-neat-roots?type=design&t=Bs0rf8mEBm5HePMM-6
+
+lottianimations
+github 
+https://github.com/airbnb/lottie-android
+
+//  lottie animations
+    implementation 'com.airbnb.android:lottie:6.1.0'
+// GSON converter
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+// retrofit
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+
+ buildFeatures {
+        viewBinding true
+    }
+
+
+
