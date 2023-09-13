@@ -2,6 +2,8 @@ package com.example.weatherapplication
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.Window
+import android.view.WindowManager
 import androidx.appcompat.widget.SearchView
 import com.ApiInterface
 import com.WeatherApp
@@ -18,12 +20,16 @@ import java.util.Locale
 class MainActivity : AppCompatActivity() {
     // d38a35681658d8135766d74f20dc4943
 
+
+
     private  val binding: ActivityMainBinding by lazy {
         ActivityMainBinding.inflate(layoutInflater)
     }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
         setContentView(binding.root)
+
 
         fetchWeatherData("Delhi")
         SearchCity()
