@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/sunny_background"
+    android:background="@drawable/sun_bg"
     tools:context=".MainActivity">
 
 
@@ -33,7 +33,9 @@
         android:layout_weight="1"
         android:drawableLeft="@drawable/loctaion"
         android:drawablePadding="15dp"
-        android:textSize="20sp"
+        android:textSize="24sp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/searchView"
         app:layout_constraintStart_toStartOf="@+id/searchView"
         app:layout_constraintTop_toBottomOf="@+id/searchView" />
@@ -45,6 +47,8 @@
         android:layout_marginTop="34dp"
         android:text="Today"
         android:textSize="24sp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.642"
         app:layout_constraintStart_toEndOf="@+id/lottieAnimationView"
@@ -66,8 +70,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="00.00 C"
+        android:text="00.00 °C"
         android:textSize="50sp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/textView2"
         app:layout_constraintStart_toStartOf="@+id/textView2"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
@@ -78,9 +84,10 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="Sunny"
-        android:textSize="20sp"
+        android:textSize="24sp"
         android:textAllCaps="true"
-
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/lottieAnimationView"
         app:layout_constraintStart_toStartOf="@+id/lottieAnimationView"
         app:layout_constraintTop_toBottomOf="@+id/lottieAnimationView" />
@@ -89,8 +96,10 @@
         android:id="@+id/maxtemp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Max : 00.00 C"
-        android:textSize="16sp"
+        android:text="Max : 00.00 °C"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/weather" />
@@ -101,8 +110,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="Min : 00.00 C"
-        android:textSize="16sp"
+        android:text="Min : 00.00 °C"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textStyle="bold"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="@+id/maxtemp"
         app:layout_constraintStart_toStartOf="@+id/maxtemp"
         app:layout_constraintTop_toBottomOf="@+id/maxtemp" />
@@ -113,7 +124,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:text="Tuesday"
-        android:textSize="20sp"
+        android:textSize="25sp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/mintemp"
         app:layout_constraintStart_toStartOf="@+id/mintemp"
         app:layout_constraintTop_toBottomOf="@+id/mintemp" />
@@ -122,8 +135,10 @@
         android:id="@+id/date"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="14dp"
         android:text="13 Sept 2023"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/day"
         app:layout_constraintStart_toStartOf="@+id/day"
         app:layout_constraintTop_toBottomOf="@+id/day" />
@@ -163,7 +178,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="0.0 %" />
+                    android:text="0.0 %"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:textStyle="bold"/>
 
                 <TextView
                     android:id="@+id/textView10"
@@ -171,7 +188,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Humidity" />
+                    android:text="Humidity"
+                    android:textStyle="bold"/>
             </LinearLayout>
 
             <LinearLayout
@@ -194,14 +212,17 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="0.00 m/s" />
+                    android:text="0.00 m/s"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:textStyle="bold"/>
 
                 <TextView
                     android:textSize="10sp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Wind Speed" />
+                    android:text="Wind Speed"
+                    android:textStyle="bold"/>
             </LinearLayout>
 
             <LinearLayout
@@ -224,14 +245,17 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:textAllCaps="true"
-                    android:text="SUNNY" />
+                    android:text="SUNNY"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:textStyle="bold"/>
 
                 <TextView
                     android:textSize="10sp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Condition" />
+                    android:text="Condition"
+                    android:textStyle="bold"/>
             </LinearLayout>
 
             <LinearLayout
@@ -255,14 +279,17 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="00:00" />
+                    android:text="00:00"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:textStyle="bold"/>
 
                 <TextView
                     android:textSize="10sp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Sunrise" />
+                    android:text="Sunrise"
+                    android:textStyle="bold"/>
             </LinearLayout>
 
             <LinearLayout
@@ -286,14 +313,17 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="00:00" />
+                    android:text="00:00"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:textStyle="bold"/>
 
                 <TextView
                     android:textSize="10sp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Sunset" />
+                    android:text="Sunset"
+                    android:textStyle="bold" />
             </LinearLayout>
 
             <LinearLayout
@@ -317,13 +347,16 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="0000 hPa" />
+                    android:text="0000 hPa"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:textStyle="bold"/>
 
                 <TextView
                     android:textSize="10sp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
+                    android:textStyle="bold"
                     android:text="Sea" />
 
             </LinearLayout>
@@ -347,10 +380,10 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="sans-serif-medium"
+        android:fontFamily="sans-serif-condensed-medium"
         android:text="Designed by \nAbhishek Aggarwal"
         android:textAlignment="center"
-        android:textColor="@color/white"
+        android:textColor="@color/blackish"
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
