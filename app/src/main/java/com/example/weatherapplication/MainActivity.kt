@@ -1,10 +1,7 @@
 package com.example.weatherapplication
 
-import android.content.ContentValues.TAG
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.service.notification.Condition
-import android.util.Log
 import androidx.appcompat.widget.SearchView
 import com.ApiInterface
 import com.WeatherApp
@@ -14,7 +11,6 @@ import retrofit2.Callback
 import retrofit2.Response
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
-import java.sql.Timestamp
 import java.text.SimpleDateFormat
 import java.util.Date
 import java.util.Locale
@@ -110,26 +106,26 @@ class MainActivity : AppCompatActivity() {
         when(condition){
 
             "Clear Sky", "Sunny", "Clear" -> {
-                binding.root.setBackgroundResource(R.drawable.sunny_background)
+                binding.root.setBackgroundResource(R.drawable.sun_bg)
                 binding.lottieAnimationView.setAnimation(R.raw.sun)
             }
 
             "Partly Clouds", "Clouds", "Overcast", "Mist", "Foggy" -> {
-                binding.root.setBackgroundResource(R.drawable.colud_background)
+                binding.root.setBackgroundResource(R.drawable.cloud_bg)
                 binding.lottieAnimationView.setAnimation(R.raw.cloud)
             }
 
             "Light Rain", "Drizzle", "Moderate Rain", "Showers", "Heavy Rain" -> {
-                binding.root.setBackgroundResource(R.drawable.rain_background)
+                binding.root.setBackgroundResource(R.drawable.rain_bg)
                 binding.lottieAnimationView.setAnimation(R.raw.rain)
             }
 
             "Light Snow", "Moderate Snow", "Heavy Snow", "Blizzard" -> {
-                binding.root.setBackgroundResource(R.drawable.snow_background)
+                binding.root.setBackgroundResource(R.drawable.snow_bg)
                 binding.lottieAnimationView.setAnimation(R.raw.snow)
             }
             else ->{
-                binding.root.setBackgroundResource(R.drawable.sunny_background)
+                binding.root.setBackgroundResource(R.drawable.sun_bg)
                 binding.lottieAnimationView.setAnimation(R.raw.sun)
 
             }
