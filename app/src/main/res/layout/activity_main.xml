@@ -146,7 +146,7 @@
         android:layout_marginTop="8dp"
         android:text="13 Sept 2023"
         android:textColor="@color/grey"
-        android:textSize="24sp"
+        android:textSize="34sp"
         android:fontFamily="sans-serif-condensed-medium"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/day"

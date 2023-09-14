@@ -121,12 +121,12 @@ class MainActivity : AppCompatActivity() {
                 binding.lottieAnimationView.setAnimation(R.raw.cloud)
             }
 
-            "Light Rain", "Drizzle", "Moderate Rain", "Showers", "Heavy Rain" -> {
+            "Light Rain", "Drizzle", "Moderate Rain", "Showers", "Heavy Rain", "Rain"-> {
                 binding.root.setBackgroundResource(R.drawable.rain_bg)
                 binding.lottieAnimationView.setAnimation(R.raw.rain)
             }
 
-            "Light Snow", "Moderate Snow", "Heavy Snow", "Blizzard" -> {
+            "Light Snow", "Moderate Snow", "Heavy Snow", "Blizzard", "Snow" -> {
                 binding.root.setBackgroundResource(R.drawable.snow_bg)
                 binding.lottieAnimationView.setAnimation(R.raw.snow)
             }
