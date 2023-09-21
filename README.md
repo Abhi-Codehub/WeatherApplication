@@ -21,10 +21,9 @@ Weather Forecast is committed to continuous improvement. In the future, we plan 
 
 Weather Forecast is your go-to solution for all your weather-related needs, delivering accurate and timely information in a user-friendly package. Download the app today and stay one step ahead of the weather!
 
+<img src="<img width="379" alt="cloud_weather" src="https://github.com/Abhi-Codehub/WeatherApplication/assets/111800760/8eb4102e-b390-41eb-8694-df770ae827d4" width="100" height="100">
 <img width="377" alt="Screenshot 2023-09-21 at 8 04 38 PM" src="https://github.com/Abhi-Codehub/WeatherApplication/assets/111800760/6b5ca8f4-33d1-4dcb-9b06-b00e76cd2937">
 <img width="378" alt="Sunny_weather" src="https://github.com/Abhi-Codehub/WeatherApplication/assets/111800760/b75f9455-506c-4b92-b43a-ba314ccd52dd">
 <img width="379" alt="cloud_weather" src="https://github.com/Abhi-Codehub/WeatherApplication/assets/111800760/d7d5c396-ecb7-4273-ab0e-0c2f2795a602">
 <img width="373" alt="rain_weather" src="https://github.com/Abhi-Codehub/WeatherApplication/assets/111800760/7c140dac-46b7-4e5a-b17a-69dd6a74ee04">
-
-
 
